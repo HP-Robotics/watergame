@@ -61,7 +61,7 @@ var config_data = `
       "filename": "2025/half_field.png",
       "clickRestriction": "one",
       "dimensions": "6 6",
-      "allowableResponses": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 18 19 20 23 24 25 26 27 28 29 30 31 32 33 34 35 36",
+      "allowableResponses": "1 7 13 17 25 31",
       "shape": "circle 5 black red true"
     }
   ],
