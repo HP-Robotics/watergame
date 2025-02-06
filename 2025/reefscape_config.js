@@ -59,7 +59,7 @@ var config_data = `
       "code": "as",
       "type": "clickable_image",
       "filename": "2025/half_field.png",
-      "clickRestriction": "one",
+      "clickRestriction": "two",
       "dimensions": "6 6",
       "allowableResponses": "1 7 13 19 25 31",
       "shape": "circle 5 black red true"
