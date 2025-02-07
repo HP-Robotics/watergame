@@ -179,6 +179,10 @@ var config_data = `
     }
   ],
   "postmatch": [
+    { "name": "Preloaded?",
+      "code": "pre",
+      "type": "bool"
+    },
     { "name": "Attained Coopertition Pt",
       "code": "cop",
       "type": "bool"
