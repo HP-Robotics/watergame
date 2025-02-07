@@ -10,13 +10,13 @@ var config_data = `
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Event",
       "code": "e",
       "type": "event",
       "defaultValue": "Duluth",
-      "required": "true"
+      "required": "false"
     },
     { "name": "Match Level",
       "code": "l",
@@ -27,14 +27,14 @@ var config_data = `
         "f": "Finals"
       },
       "defaultValue": "qm",
-      "required": "true"
+      "required": "false"
     },
     { "name": "Match #",
       "code": "m",
       "type": "match",
       "min": 1,
       "max": 150,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Robot",
       "code": "r",
@@ -47,7 +47,7 @@ var config_data = `
         "r3": "Red-3",
         "b3": "Blue-3"
       },
-      "required":"true"
+      "required":"false"
     },
     { "name": "Team #",
       "code": "t",
@@ -94,6 +94,10 @@ var config_data = `
       "allowableResponses": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 18 19 20 23 24 25 26 27 28 29 30 31 32 33 34 35 36",
       "shape": "circle 5 black red true"
     },
+    { "name": "Algae Removed",
+      "code": "ar",
+      "type": "counter"
+    },
     { "name": "Processor Score",
       "code": "aps",
       "type": "counter"
@@ -118,6 +122,10 @@ var config_data = `
     },
     { "name": "Coral L4",
       "code": "tc4",
+      "type": "counter"
+    },
+    { "name": "Algae Removed",
+      "code": "ar2",
       "type": "counter"
     },
     { "name": "Processor Score",
@@ -145,10 +153,6 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Barge Timer",
-      "code": "ebt",
-      "type": "timer"
-    },
     { "name": "Final Robot Status",
       "code": "efs",
       "type":"radio",
@@ -213,19 +217,11 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
+    { "name": "Tippy<br>(Almost Tipped Over)",
       "code": "tip",
       "type": "bool"
     },
-    { "name": "Dropped Coral (>2)",
-      "code": "dc",
-      "type": "bool"
-    },
-    { "name": "Dropped Algae (>2)",
-      "code": "da",
-      "type": "bool"
-    },
-    { "name": "Make good<br>alliance partner?",
+    { "name": "Look Into For<br>Alliance Partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "all",
       "type": "bool"
