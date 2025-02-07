@@ -55,7 +55,7 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": "Preload?",
+    { "name": "Preload",
       "code": "pre",
       "type": "load",
       "choices": {
