@@ -56,7 +56,7 @@ var config_data = `
       "max": 99999
     },
     { "name": "Preload?",
-      "code": "r",
+      "code": "pre",
       "type": "load",
       "choices": {
         "pn": "no",
