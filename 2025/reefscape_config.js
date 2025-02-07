@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Reefscape Scouting 2025",
-  "page_title": "WATERGAME",
+  "page_title": "WATER GAME",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
