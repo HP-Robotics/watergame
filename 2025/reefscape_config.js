@@ -1,8 +1,8 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2025",
-  "page_title": "REEFSCAPE",
+  "title": "Reefscape Scouting 2025",
+  "page_title": "WATERGAME",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
