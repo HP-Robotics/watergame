@@ -144,7 +144,7 @@ var config_data = `
       "code": "cd2",
       "type": "counter"
     },
-    { "name": "algae Dropped",
+    { "name": "Algae Dropped",
       "code": "ad",
       "type": "counter"
     },
