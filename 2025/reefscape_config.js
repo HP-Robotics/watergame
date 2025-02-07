@@ -194,6 +194,13 @@ var config_data = `
       "max": 9,
       "defaultValue": 0
     },
+    { "name": "Total RP",
+      "code": "mrp",
+      "type": "number",
+      "min": 0,
+      "max": 9,
+      "defaultValue": 0
+    },
     { "name": "Driver Skill",
       "code": "ds",
       "type": "radio",
