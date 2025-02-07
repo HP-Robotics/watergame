@@ -55,10 +55,6 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": Preload",
-      "code": "pr",
-      "type": "bool"
-    },
     { "name": "Auto Start Position",
       "code": "as",
       "type": "clickable_image",
