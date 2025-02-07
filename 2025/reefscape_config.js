@@ -105,6 +105,10 @@ var config_data = `
     { "name": "Net Score",
       "code": "ans",
       "type": "counter"
+    },
+    { "name": "Coral Dropped",
+      "code": "cd",
+      "type": "counter"
     }
   ],
   "teleop": [
@@ -134,6 +138,14 @@ var config_data = `
     },
     { "name": "Net Score",
       "code": "tns",
+      "type": "counter"
+    },
+    { "name": "Coral Dropped",
+      "code": "cd2",
+      "type": "counter"
+    },
+    { "name": "algae Dropped",
+      "code": "ad",
       "type": "counter"
     },
     { "name": "Pickup From",
