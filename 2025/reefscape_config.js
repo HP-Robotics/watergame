@@ -169,10 +169,10 @@ var config_data = `
       "code": "efs",
       "type":"radio",
       "choices": {
-        "bp": "Parked<br>",
-        "ba": "Parked/Failed Climb<br>",
-        "bs": "Shallow Cage<br>",
-        "bd": "Deep Cage<br>",
+        "park": "Parked<br>",
+        "fail": "Parked/Failed Climb<br>",
+        "shallow": "Shallow Cage<br>",
+        "deep": "Deep Cage<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
@@ -205,9 +205,9 @@ var config_data = `
       "code": "ds",
       "type": "radio",
       "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
+        "bad": "Not Effective<br>",
+        "ok": "Average<br>",
+        "good": "Very Effective<br>",
         "x": "Not Observed"
       },
       "defaultValue": "x"
@@ -216,10 +216,9 @@ var config_data = `
       "code": "dr",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
+        "bad": "Below Average<br>",
+        "ok": "Average<br>",
+        "good": "Good<br>",
         "x": "Did not play defense"
       },
       "defaultValue": "x"
