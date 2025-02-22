@@ -183,6 +183,10 @@ var config_data = `
     }
   ],
   "postmatch": [
+    { "name": "Won The Match",
+      "code": "win",
+      "type": "bool"
+    },
     { "name": "Attained Coopertition Pt",
       "code": "cop",
       "type": "bool"
