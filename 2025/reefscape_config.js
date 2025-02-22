@@ -66,6 +66,10 @@ var config_data = `
     }
   ],
   "auton": [
+    { "name": "Preloaded?",
+      "code": "pre",
+      "type": "bool"
+    },  
     { "name": "Leave Starting Line",
       "code": "al",
       "type": "bool"
@@ -179,10 +183,6 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Preloaded?",
-      "code": "pre",
-      "type": "bool"
-    },
     { "name": "Attained Coopertition Pt",
       "code": "cop",
       "type": "bool"
